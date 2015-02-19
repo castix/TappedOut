@@ -1,6 +1,8 @@
 # Tapped Out Mods
-This is an open-source project for cheats&mods concerning Tapped Out (Simpsons) 
-created by castix
+This is an open-source project of upcoming cheats for Tapped Out (Simpsons) which will be available on various sites.
+
+
+Created by castix
 
 #MIT License
 The MIT License (MIT)
