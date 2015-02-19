@@ -1,4 +1,0 @@
-git add icon.png
-git commit -m 'add png file'
-git remote add origin https://github.com/icon.git
-git push -u origin master
