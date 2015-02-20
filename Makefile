@@ -1,12 +1,13 @@
-ARCHS = armv7 arm64
-
 include theos/makefiles/common.mk
 
 TWEAK_NAME = TappedOut
 TappedOut_FILES = Hooks.xm
-TappedOut_FRAMEWORKS = UIKit
+
+export ARCHS = armv7 arm64
 
 include $(THEOS_MAKE_PATH)/tweak.mk
 
 after-install::
 	install.exec "killall -9 SpringBoard"
+SUBPROJECTS += tappedoutsettings
+include $(THEOS_MAKE_PATH)/aggregate.mk
