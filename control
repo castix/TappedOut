@@ -1,1 +1,14 @@
-Placeholder
+Name: Tapped Out Cheats
+Package: com.castix.tappedout
+Priority: optional
+Depends: mobilesubstrate , firmware (>= 7.0) , preferenceloader (>= 2.2.2)
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: Cheats for Tapped Out yay!
+Sponsor: iOSCheaters.com <http://iOSCheaters.com>
+Maintainer: castix <development.castix@gmail.com>
+Author: castix <development.castix@gmail>
+Section: Tweaks
+Tag: purpose::extension, cydia::commercial, ios7support::1, ios8support::1
+dev: castix
+Icon: file:///Library/PreferenceBundles/TappedOutSettings.bundle/icon@2x.png
