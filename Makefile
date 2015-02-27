@@ -3,7 +3,7 @@ include theos/makefiles/common.mk
 TWEAK_NAME = TappedOut
 TappedOut_FILES = Hooks.xm
 
-export ARCHS = armv7 arm64
+export ARCHS = arm64 armv7 armv7s
 
 include $(THEOS_MAKE_PATH)/tweak.mk
 
